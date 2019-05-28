@@ -19,5 +19,5 @@ optimizer = A2GradExp(model.parameters(), beta=1, lips=10, rho=0.9)
 We implemented 3 realisations of A2Grad from the paper and compared it with Adam, AMSGrad, accelerated SGD (variant from this [paper](https://arxiv.org/abs/1803.05591)) and adaptive SGD (Spokoiny's practical variant)
 * optimizers.py contains all implementations of tested optimizers, including 3 different variants of A2Grad (A2GradUni, A2GradInc, A2GradExp)
 * MNIST.ipynb contains all experiments on the MNIST dataset, tested models: logistic regression and two-layer neural network
-* CIFAR10.ipynb contains all experiments on the CIFAR10 dataset (tested models: Cifarnet (~~and Vgg16~~)
+* CIFAR10.ipynb contains all experiments on the CIFAR10 dataset tested models: Cifarnet (~~and Vgg16~~)
 * plot_results.ipynb contains all visualized results from MNIST and CIFAR10 experiments
